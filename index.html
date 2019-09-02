@@ -2,27 +2,43 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Character Portfolio</title>
-    <!--  css external -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
-    <link rel="stylesheet" href="main.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Character Portfolio</title>
+	<!--  css external -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+	<link rel="stylesheet" href="main.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 
 <body>
-    <section class='hero' id='main-section'>
-        <div class="container hero-body has-text-centered">
-            <h1 class="title is-3">Spidey-Man</h1>
-            <a class='button is-medium is-info' href="tel:800908908">Call Spidey-Man<i style='margin-left:.5rem;'
-                    class="fas fa-phone"></i></a>
-            <figure class="image is-128x128" style="margin:0 auto;">
-                <img width='20%' src="https://i.dlpng.com/static/png/495340_preview.png" alt="">
-            </figure>
-        </div>
-    </section>
+	<!-- main-section -->
+	<section class='hero' id='main-section'>
+		<div class="container hero-body has-text-centered">
+			<h1 class="title is-3">Spidey-Man</h1>
+			<a class='button is-medium is-info' href="tel:800908908">Call Spidey-Man<i style='margin-left:.5rem;'
+					class="fas fa-phone"></i></a>
+			<figure class="image is-128x128" style="margin:0 auto;">
+				<img width='20%' src="https://i.dlpng.com/static/png/495340_preview.png" alt="">
+			</figure>
+		</div>
+	</section>
+	<!-- Character-Abilities -->
+	<section id="abilities" class="hero">
+		<div class="container hero-body">
+			<h1 class="title is-1">Character Abilities</h1>
+
+			<h4 class="title is-4">Stick to Walls</h4>
+			<progress class="progress is-success" value="70" max="100">70%</progress>
+
+			<h4 class="title is-4">Throw Webs</h4>
+			<progress class="progress is-warning" value="20" max="100">20%</progress>
+
+			<h4 class="title is-4">Fighting Skills</h4>
+			<progress class="progress is-danger" value="10" max="100">10%</progress>
+		</div>
+	</section>
 </body>
 
 </html>
